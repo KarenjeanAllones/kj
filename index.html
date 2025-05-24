@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			ALS - Manolo Fortich District II 
+		</h2>
+		<p>In Aternative Learning System No one will left behind</p>
+		<div class="btn">
+			<a href="https://forms.gle/v1sD5xJmomMFwYsu8" class="yellow">ENROLL NOW</a>
+		</div>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>ALTERNATIVE LEARNING SYSTEM</h1>
+		<p>A community of lifelong learners, responsible global citizens, and champions of our own success.</p>
+
+		<p class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>MISSION:</h3>
+				<p>The mission of the Alternative Learning System (ALS) is to empower Filipino out-of-school youth and adults to continue learning on their own so they may improve their quality of life and that of their family, community, and country.
+ 				  It aims to provide out-of-school youth and adults with learning opportunities by which they may gain knowledge, skills, attitudes, and values that will enable them to think critically and creatively, act innovatively and humanely, and achieve their learning goals in order to become contributing members of Filipino society.
+ 				  The ALS is a free education program implemented by the Department of Education (DepEd) under the Bureau of Alternative Learning System, which benefits those who cannot afford formal schooling and follows whatever is their available schedule. </p>
+			</div>
+
+			<The class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>VISSION:</h3>
+				<p>This program focuses on developing essential literacy skills like reading, writing, and numeracy.
+                  The vision of the Alternative Learning System (ALS) is to empower every Filipino to become a productive, self-reliant, responsible, humane, and upright citizen who can contribute to the betterment of their family, community, and country. It aims to awaken, empower, and transform individuals through education, enabling them to think critically and creatively, and act innovatively and humanely to improve their quality of life and that of their surroundings.</p>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Experts section starts from here -->
+	<section id="experts">
+		<h1>Community ALS Implementers</h1>
+		<p>Individuals engaged by DepEd or LGUs to deliver ALS programs</p>
+		
+		<div class="expert-box">
+			<div class="profile">
+				<img src="img/fotor-2025052412448.jpg" alt="img/fotor-2025052412448.jpg" width 300px height="200px">
+				<h6>Karen Jean A. Allones</h6>
+				<p>Digital Literacy</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"><href=https://www.facebook.com/Msjhing.03,>@Msjhing.03</href></i>
+				</div>
+			</div>
+
+			<div class="profile">
+				<img src="img/jungkook-fotor-2025052413118.jpg" width 300px height="200px">
+				<h6>Jeon Jung-kook</h6>
+				<p>Data Design Expert</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook">@Jung-kook</i>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- Experts section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>@ALSMFII_District</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<li>ALSMfII@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Tel No. 8081-9008-1000</li>
+			<li>Phone No. 0906-969-1500</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li>Alae Central Elementary School Manolo Fortich District II Office</li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2025 All rights reserved | This template is made by Me</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
